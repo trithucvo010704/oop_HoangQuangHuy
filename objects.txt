@@ -1,0 +1,25 @@
+objects
+Student -> Person 
+	student_id; // Mã tìm kiến SV
+	student_code ; // Mã quản lý trong hệ thống 
+	student_specially;
+// Một phương thức viết đi viết lại trên nhiều lớp đối tượng khác nhau mà các lớp đối tượng ấy có mqh cha con với là ghi đè phương thức 
+// khi gọi một thể hiện đối tượng truy cập phương thức java đi tìm trong khởi tạo bộ nhớ phương thức ấy nếu nó được ghi đè thì nó sẽ lấy phương thức đã được khai báo còn không nó sẽ gọi đến lớp khai báo 
+// Chồng phương thức tăng độ mềm dẻo 
+// Ghi đè phương thức tăng độ linh hoạt , thông minh của một thể hiện đối tượng nhận được kết quả 
+
+Employee -> Person 
+	employee_net ;  // Thu nhập 
+	employee_position ;// vị trí 
+	employee_applyyear ; // Năm làm việc 
+	employee_notes ; // Ghi chú 
+Test Person 
+// Đa hình 
+cùng một lời gọi cho ra kết quả khác nhau phụ thuộc vào môi trường khởi tạo 
+protected  trong cùng một package có thể truy cập 
+
+instanceof  thể hiện trong lớp đối tượng cha 
+// Lớp TRỪU TRƯỢNG 
+đóng gói và bảo mật tốt 
+kĩ thuật updateing khai báo lớp cha = new lớp con 
+kĩ thuật ẩn mã 

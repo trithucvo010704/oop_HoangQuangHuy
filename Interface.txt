@@ -1,0 +1,42 @@
+Class extends Class implements interface 
+interface extends interface ( kế thừa được interface) 
+Class không được extends interface 
+
+ProductImpl
+-- Product Interface 
+public boolean addProduct (Object o )
+public boolean editProduct (Object o )
+public boolean delProduct (Object o )
+
+searchProduct
+
+public ArrayList searchProduct (Object o )
+public ArrayList searchProduct ()
+SortedProduct 
+
+public  ArrayList sortProduct(Object o )
+
+Statistic Product 
+
+public ArrayList statisticProduct (Object o)
+
+
+
+Lớp Geomertric Interface 
+
+GeometricManager
+
+	public boolean addList(GeometricObject go) ;
+	public boolean editList(GeometricObject go) ;
+	public boolean delList(GeometricObject go) ;
+	
+
+GenerateList
+	public void generateList( int n) ;
+
+GeometricSearch
+
+GeometricSorted
+
+GeometricOther
+

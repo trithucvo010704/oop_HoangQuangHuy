@@ -1,0 +1,13 @@
+16//11/2023  - Xử lý mảng & Chuỗi 
+1( Xỷ lý mảng) 
+Khai báo 
+		
+	<KDL> [ ] <Tên> = new <KDL>[ <kích thước > ];
+	<KDL>  <Tên>  [ ] = new <KDL>[ <kích thước > ];
+Utilities	
+	- MyArrays (Business class ) 
+	BT
+	Cho mảng số nguyên bất kì lọc các số nguyên tố  để lên đầu và sắp xếp theo một thứ tự nào đó 
+	Tìm tập con mảng con sao cho bằng một giá trị bất kỳ 
+
+

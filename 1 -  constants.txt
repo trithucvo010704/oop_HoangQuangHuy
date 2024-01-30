@@ -1,0 +1,17 @@
+1 -  constants
+1' - classes' Variables 
+2 - properties (đã cho) 
+3 - constructor methods 
+4 - getter methods 
+5 - setter methods 
+6 - other methods 
+Class Book  (Persistent class)
+	- short book_id
+	- String book_tittle 
+	- String book_author
+	- String book_summary
+	- String book_details
+	- String book_ images
+	- short bool_number_pages
+	- float book_prices
+	- String book_notes

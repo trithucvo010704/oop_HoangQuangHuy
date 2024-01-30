@@ -1,0 +1,14 @@
+testGeometric 
+-- Phát triển tiếp class TestGeometric
+-- Liệt kê ra tất cả các hình tròn mà có diện tích nằm trong khoảng cho trước
+-- Liệt kê ra tất cả những hình vuông có trong danh sách 
+-- Tìm trong danh sách những cặp giá trị hình tròn và hình chữ nhật mà lân cận nhau về mặt diện tích
+--  Liệt kê ra tất cả những hình chữ nhật mà có cặp cạnh là 2 số nguyên tố 
+-- Tính tổng diện tích của tất cả hcn có trong danh sách 
+-- sắp xếp diện tích cách hình tròn và diện tích hình chữ nhật theo thứ tự nào đấy 
+-- 
+This interface imposes a total ordering on the objects of each class thatimplements it. This ordering is referred to as the class's naturalordering, and the class's compareTo method is referred to asits natural comparison method.
+
+Lists (and arrays) of objects that implement this interface can be sortedautomatically by Collections.sort (and Arrays.sort). Objects that implement thisinterface can be used as keys in a sorted map or aselements in a sorted set, without the need tospecify a comparator.
+
+
